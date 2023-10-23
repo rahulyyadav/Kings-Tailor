@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+
+/*This is css for whole body*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 0px;
+  }
+
+/* This stand at the top of the screen. Which says 'be a man' */
+hr {
+  margin-top: 5px;
+  /*I have to make thin standard line between the quote and the rest of the body*/
+}
+
+.top_line{
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+  }
+  
+
+/* Kings tailor logo png. which stand at the top left of the screen */
+.logo{
+    height: 30px;
+    margin: 2% 0 0 0;
+    float: left;
+  }
+
+/* header which contains logo home tabs and input search bar */
+  header {
+    text-align: left;
+    
+    
+  }
+ 
+
+  /* Navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    size: 40px;
+    padding: 20px 35px 35px 100px;
+    
+  }
+  
+.nav-links{
+  list-style:none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  margin-left:30px;
+  margin-top: 2%;
+}
+
+  nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  nav a:hover{
+    text-decoration: underline;
+  }
+  
+/* Search button */
+
+.search_button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  width: 40px;
+  margin-left: 50%;
+  padding-top: 40px;
+
+}
+
+.cart{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  width: 40px;
+  margin-left: 0%;
+  padding-top: 40px;
+}
+  /* Black line which is at the bottom of the header */
+
+  .black-line {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  #blackLineText{
+    margin: 3px 0 3px 0;
+    font-size: 0.85rem;
+  }
+
+/* The main contents where products are listed */
+
+  main {
+    /* max-width: 960px; */
+    margin: 0 auto;
+  }
+
+  section{
+    display: flex;
+  }
+
+  .pdt{
+    margin-left: 6.7%;
+  }
+  
+  .product {
+    align-items: center;
+    margin: 40px 50px 20px 7%;
+  }
+  
+  .product img {
+   width: 70px;
+   margin-left: 3%;
+  }
+  
+  .product h3 {
+    margin-left: 20px;
+  }
+  
+  .product p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+
+
+/* button */
+.button-86 {
+  all: unset;
+  margin-left: 2.5%;
+  width: 60px;
+  height: 25px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+
+
+/* This is for 2nd product */
+
+.product-1 {
+  align-items: center;
+  margin: 40px 50px 20px 7%;
+}
+
+.product-1 img {
+  height: 100px;
+ width: 70px;
+ margin-left: 3%;
+}
+
+.product-1 h3 {
+  margin-left: 20px;
+}
+
+.product-1 p {
+  margin-left: 20px;
+  color: #ccc;
+}
+
+
+/* button */
+.button-86 {
+all: unset;
+margin-left: 2.5%;
+width: 60px;
+height: 25px;
+font-size: 16px;
+background: transparent;
+border: none;
+position: relative;
+color: #f0f0f0;
+cursor: pointer;
+z-index: 1;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: nowrap;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+content: '';
+position: absolute;
+bottom: 0;
+right: 0;
+z-index: -99999;
+transition: all .4s;
+}
+
+.button-86::before {
+transform: translate(0%, 0%);
+width: 100%;
+height: 100%;
+background: #28282d;
+border-radius: 10px;
+}
+
+.button-86::after {
+transform: translate(10px, 10px);
+width: 35px;
+height: 35px;
+background: #ffffff15;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border-radius: 50px;
+}
+
+.button-86:hover::before {
+transform: translate(5%, 20%);
+width: 110%;
+height: 110%;
+}
+
+.button-86:hover::after {
+border-radius: 10px;
+transform: translate(0, 0);
+width: 100%;
+height: 100%;
+}
+
+.button-86:active::after {
+transition: 0s;
+transform: translate(0, 5%);
+}
+
+
+
+  /* And the footer */
+  
+  footer {
+    
+    text-align: center;
+    margin-top: 500px;
+  }
+
+
+
+  
